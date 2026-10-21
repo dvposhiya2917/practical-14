@@ -1,7 +1,7 @@
 import React, { useState } from "react";
-import Navbar from "./components/Navbar";
-import StudentForm from "./components/StudentForm";
-import StudentDetails from "./components/StudentDetails";
+import Navbar from "./Components/Navbar";
+import StudentForm from "./Components/StudentForm";
+import StudentDetails from "./Components/StudentDetails";
 
 function App() {
   const [student, setStudent] = useState(null);
